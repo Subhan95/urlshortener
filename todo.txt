@@ -1,0 +1,4 @@
+Given a valid url check whether shortened version exists in db if it does return object
+Given a short url check whether it exists in db if it does redirect to original url
+Connect to db using mongoose
+

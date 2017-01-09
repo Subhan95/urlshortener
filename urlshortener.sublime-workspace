@@ -1,0 +1,1593 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"urlencode",
+				"urlencodedParser"
+			],
+			[
+				"mark",
+				"marked"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"ht",
+				"http"
+			],
+			[
+				"parse",
+				"parsetime"
+			],
+			[
+				"conca",
+				"concatStream"
+			],
+			[
+				"url",
+				"urls"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"regex",
+				"regex"
+			],
+			[
+				"clone",
+				"cloneElement()\tReact"
+			],
+			[
+				"Ch",
+				"Children.map()\tReact"
+			],
+			[
+				"Chil",
+				"Children.only()\tReact"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"C",
+				"Children.map()\tReact"
+			],
+			[
+				"rend",
+				"render()\tReactDOM"
+			],
+			[
+				"clas",
+				"createClass()\tReact"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"exte",
+				"extends"
+			],
+			[
+				"rende",
+				"render"
+			],
+			[
+				"compo",
+				"componentWillReceiveProps\t Life Cycle"
+			],
+			[
+				"find",
+				"findDOMNode()\tReactDOM"
+			],
+			[
+				"render",
+				"render()\tReactDOM"
+			],
+			[
+				"comp",
+				"componentWillMount\t Life Cycle"
+			],
+			[
+				"currentE",
+				"currentEvent"
+			],
+			[
+				"ch",
+				"children\t.children()"
+			],
+			[
+				"cosn",
+				"constructor\tReact.Component"
+			],
+			[
+				"rea",
+				"React.PropTypes.number"
+			],
+			[
+				"crea",
+				"createElement()\tReact"
+			],
+			[
+				"imp",
+				"import\t x from 'x'"
+			],
+			[
+				"cel",
+				"celebrityName"
+			],
+			[
+				"runs",
+				"runsequence"
+			],
+			[
+				"pla",
+				"playMusic"
+			],
+			[
+				"pal",
+				"playYellow"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-center"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"btn",
+				"btn-sign"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"con",
+				"convertToSymbol"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"wi",
+				"winningPositions"
+			],
+			[
+				"win",
+				"winGame"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"comput",
+				"computerWin"
+			],
+			[
+				"com",
+				"computerPositions"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"co",
+				"computerSign"
+			],
+			[
+				"player",
+				"playerChoice"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"prev",
+				"previousPlayer"
+			],
+			[
+				"si",
+				"signs"
+			],
+			[
+				"firs",
+				"firstPlayer"
+			],
+			[
+				"fis",
+				"firstPlayer"
+			],
+			[
+				"fi",
+				"firstPlayer"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"border-bot",
+				"border-bottom-color"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"session",
+				"sessionTime"
+			],
+			[
+				"clo",
+				"clock-time"
+			],
+			[
+				"clea",
+				"clearInterval"
+			],
+			[
+				"bre",
+				"breakTime"
+			],
+			[
+				"time",
+				"timerID"
+			],
+			[
+				"sess",
+				"session"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"pre",
+				"presentVal"
+			],
+			[
+				"has",
+				"hasOverflowed"
+			],
+			[
+				"op",
+				"operator"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"op1",
+				"op1"
+			],
+			[
+				"key",
+				"keystrokes"
+			],
+			[
+				"form",
+				"formatResult"
+			],
+			[
+				"typ",
+				"typeof"
+			],
+			[
+				"counter",
+				"counter1"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"fl",
+				"flex-direction"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"sele",
+				"selector"
+			],
+			[
+				"c",
+				"c\tcolor: #${1:000};"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"chann",
+				"channel"
+			],
+			[
+				"list-",
+				"list-group-item"
+			],
+			[
+				"channe",
+				"channels"
+			],
+			[
+				"cha",
+				"channel"
+			],
+			[
+				"br",
+				"brunofin"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"ke",
+				"key"
+			],
+			[
+				"fin",
+				"finalClosing"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"ope",
+				"openingLi"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"cl",
+				"closingLi"
+			],
+			[
+				"wik",
+				"wikipediaId"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"ready",
+				"ready\t$(document).ready"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"set",
+				"setWeather\t(source.js)"
+			],
+			[
+				"ci",
+				"cityCountry"
+			],
+			[
+				"temp",
+				"temperature"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"weat",
+				"weatherData"
+			],
+			[
+				"wea",
+				"weatherData"
+			],
+			[
+				"weath",
+				"weatherData"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"wer",
+				"weatherData"
+			],
+			[
+				"we",
+				"weatherData"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"set sy htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"new fol",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"delete",
+				"ANF: Delete File"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"new ",
+				"ANF: New File"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"markdown chea",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"goog",
+				"Google Search: Search any"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"LIST",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"prefer",
+				"Preferences: Settings"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"goo",
+				"Google Search: Search any"
+			],
+			[
+				"fileic",
+				"File Icons: Clean Up"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"synta html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ena",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"disa",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"disabl",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enable l",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"en",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"dis",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set s jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"tex1",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"past0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"pastr0",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"sho",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"textpa0t",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"text0t",
+				"Text Pastry: From 0 To X"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"open in b",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"preferences",
+				"Preferences: Settings"
+			],
+			[
+				"pre",
+				"Package Control: Remove Channel"
+			],
+			[
+				"task",
+				"Tasks: New"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"linti",
+				"SublimeLinter: Enable Linting"
+			],
+			[
+				"snipp l",
+				"Snippet: livereload"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"ne",
+				"ANF: New File"
+			],
+			[
+				"snipplive",
+				"Snippet: livereload"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insert",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"confli",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"key c",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"show a",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"snipp fun",
+				"Snippet: Function"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"find",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"buil",
+				"Build With: JavaScript"
+			],
+			[
+				"pretty js",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pretty ",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"snpp ro",
+				"Snippet: bs3-row"
+			],
+			[
+				"show all",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"forma",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pret",
+				"Pretty JSON: Validate"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"showall",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"she",
+				"SublimeREPL: Scheme"
+			],
+			[
+				"cop",
+				"File: Copy Path as URI"
+			],
+			[
+				"google",
+				"Google Search: Search any"
+			],
+			[
+				"show err",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"snipp col4",
+				"Snippet: bs3-col-4"
+			],
+			[
+				"snipp col 4",
+				"Snippet: bs3-col-4"
+			],
+			[
+				"button",
+				"Snippet: bs3-button"
+			],
+			[
+				"row",
+				"Snippet: bs3-row"
+			],
+			[
+				"snipp con",
+				"Snippet: bs3-container"
+			],
+			[
+				"an",
+				"ANF: New File"
+			],
+			[
+				"anf new",
+				"ANF: New File"
+			],
+			[
+				"anf ",
+				"ANF: New File"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify"
+			],
+			[
+				"shwo",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"sh",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"func",
+				"Snippet: Function"
+			],
+			[
+				"show ",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"shoe",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"snipp do",
+				"Snippet: document.ready - $(function(){})"
+			],
+			[
+				"snipp col2",
+				"Snippet: bs3-col-2"
+			],
+			[
+				"snipp cdn",
+				"Snippet: bs3-cdn-js"
+			],
+			[
+				"htmlboil",
+				"Snippet: htmlboiler"
+			],
+			[
+				"htmlbo",
+				"Snippet: htmlboiler"
+			],
+			[
+				"snippet jq",
+				"Snippet: jQuery(document).ready"
+			],
+			[
+				"col 3",
+				"Snippet: bs3-col-3"
+			],
+			[
+				"col 6",
+				"Snippet: bs3-col-6"
+			],
+			[
+				"jumbo",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"snipp cont ",
+				"Snippet: bs3-container"
+			],
+			[
+				"html pre",
+				"HTMLPrettify"
+			],
+			[
+				"snipp row",
+				"Snippet: bs3-row"
+			],
+			[
+				"snipp col 6",
+				"Snippet: bs3-col-6"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/subhan/FCC/urlshortener"
+	],
+	"file_history":
+	[
+		"/home/subhan/FCC/urlshortener/app.js",
+		"/home/subhan/Downloads/source/booking_page.html",
+		"/home/subhan/Desktop/mongodb_cheatsheet.txt",
+		"/home/subhan/FCC/urlshortener/public/index.html",
+		"/home/subhan/Desktop/webpack-playlist/index.html",
+		"/home/subhan/Desktop/node-js-playlist/views/todo.ejs",
+		"/home/subhan/Desktop/node-js-playlist/app.js",
+		"/home/subhan/Desktop/node-js-playlist/controllers/todoController.js",
+		"/home/subhan/Desktop/node-js-playlist/public/assets/styles.css",
+		"/home/subhan/FCC/timestamp-microservice/index.js",
+		"/home/subhan/FCC/timestamp-microservice/app.js",
+		"/home/subhan/FCC/timestamp-microservice/public/index.html",
+		"/home/subhan/FCC/timestamp-microservice/public/custom.css",
+		"/home/subhan/FCC/timestamp-microservice/timestamp.sublime-project",
+		"/home/subhan/Desktop/timestamp-microservice/index.js",
+		"/home/subhan/Desktop/timestamp-microservice/custom.css",
+		"/home/subhan/Desktop/timestamp-microservice/index.html",
+		"/home/subhan/Desktop/timestamp-microservice/.gitignore",
+		"/home/subhan/Desktop/timestamp-microservice/timestamp.sublime-project",
+		"/home/subhan/data/solution.js",
+		"/home/subhan/Desktop/markdown-editor/src/App.css",
+		"/home/subhan/Desktop/markdown-editor/public/custom.css",
+		"/home/subhan/Desktop/markdown-editor/.gitignore",
+		"/home/subhan/Desktop/markdown-editor/public/index.html",
+		"/home/subhan/Desktop/test.txt",
+		"/home/subhan/.config/sublime-text-3/Packages/User/Markdown.sublime-settings",
+		"/home/subhan/.config/sublime-text-3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/home/subhan/.config/sublime-text-3/Packages/MarkdownEditing/Default (Linux).sublime-keymap",
+		"/home/subhan/.config/sublime-text-3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/home/subhan/.config/sublime-text-3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
+		"/home/subhan/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/subhan/.config/sublime-text-3/Packages/User/MultiMarkdown.sublime-settings",
+		"/home/subhan/.config/sublime-text-3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/home/subhan/Desktop/markdown-editor/README.md",
+		"/home/subhan/.config/sublime-text-3/Packages/MarkdownEditing/README.md",
+		"/home/subhan/Desktop/markdown-editor/src/index.js",
+		"/home/subhan/Desktop/markdown-editor/src/App.js",
+		"/home/subhan/Desktop/react-app/public/index.html",
+		"/home/subhan/Desktop/react-app/public/custom.css",
+		"/home/subhan/Desktop/react-app/src/App.js",
+		"/home/subhan/Desktop/react-app/src/index.js",
+		"/home/subhan/Desktop/react-app/src/App.css",
+		"/home/subhan/meanStack/course.js",
+		"/home/subhan/meanStack/student.js",
+		"/home/subhan/meanStack/testing.js",
+		"/home/subhan/meanStack/sample.js",
+		"/home/subhan/meanStack/test.js",
+		"/home/subhan/meanStack/interface.js",
+		"/home/subhan/meanStack/connect.js",
+		"/home/subhan/meanStack/index.js",
+		"/home/subhan/meanStack/gulpfile.js",
+		"/home/subhan/meanStack/package.json",
+		"/home/subhan/meanStack/movies.json",
+		"/home/subhan/Coursera/MEAN Stack/chapter-1/4-examples/timeout.js",
+		"/home/subhan/Coursera/MEAN Stack/chapter-1/3-examples/index.js",
+		"/home/subhan/Desktop/test/index.pug",
+		"/home/subhan/Desktop/test/program.js",
+		"/home/subhan/Desktop/sample/app.js",
+		"/home/subhan/Desktop/test/modular.js",
+		"/home/subhan/Desktop/test.py",
+		"/home/subhan/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/subhan/Desktop/react-app/public/favicon.ico",
+		"/home/subhan/Desktop/soln.txt",
+		"/home/subhan/Desktop/mine.txt",
+		"/home/subhan/Desktop/test.js",
+		"/home/subhan/Desktop/custom.html",
+		"/home/subhan/Desktop/transactions.txt",
+		"/home/subhan/FCCProjects/Simon/source.js",
+		"/home/subhan/FCCProjects/Simon/custom.css",
+		"/home/subhan/FCCProjects/Simon/simon.html",
+		"/home/subhan/FCCProjects/LocalWeather/localweather.html",
+		"/home/subhan/FCCProjects/twitchtv/source.js",
+		"/home/subhan/FCCProjects/twitchtv/twitchtv.html",
+		"/home/subhan/FCCProjects/Tictactoe/tictactoe.html",
+		"/home/subhan/FCCProjects/Tictactoe/custom.css",
+		"/home/subhan/FCCProjects/Tictactoe/source.js",
+		"/home/subhan/FCCProjects/tictactoe/source.js",
+		"/home/subhan/FCCProjects/tictactoe/tictactoe.html",
+		"/home/subhan/FCCProjects/tictactoe/custom.css",
+		"/home/subhan/FCCProjects/Pomodoro/pomodoro.html",
+		"/home/subhan/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/subhan/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/subhan/Desktop/test/test.html",
+		"/home/subhan/Desktop/test/source.js",
+		"/home/subhan/Desktop/test/custom.css",
+		"/home/subhan/FCCProjects/Pomodoro/source.js",
+		"/home/subhan/FCCProjects/Calculator/custom.css",
+		"/home/subhan/FCCProjects/Calculator/calculator.html",
+		"/home/subhan/FCCProjects/tictactoe.html",
+		"/home/subhan/FCCProjects/custom.css",
+		"/home/subhan/FCCProjects/source.js",
+		"/home/subhan/FCCProjects/Pomodoro/app.css",
+		"/home/subhan/FCCProjects/LocalWeather/custom.css",
+		"/home/subhan/FCCProjects/Calculator/source.js",
+		"/home/subhan/.config/sublime-text-3/Packages/User/Default.sublime-commands",
+		"/home/subhan/univ/gatech.todo",
+		"/home/subhan/Desktop/gatech.todo",
+		"/home/subhan/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/subhan/univ/gatech.TODO",
+		"/home/subhan/FCCProjects/Calculator/js/source.js",
+		"/home/subhan/FCCProjects/Calculator/css/custom.css",
+		"/home/subhan/WebDev/cdn.txt",
+		"/home/subhan/Desktop/calci.js",
+		"/home/subhan/FCCProjects/FCCProjects.sublime-project",
+		"/home/subhan/FCCProjects/Calculator/js/bootstrap.min.js",
+		"/home/subhan/.bashrc",
+		"/home/subhan/Desktop/AngularJSLiveLessons-master/Lesson07/01_cleaning_up/front/index.html",
+		"/home/subhan/Desktop/getsize.py",
+		"/home/subhan/univ/untitled",
+		"/home/subhan/FCCProjects/WikipediaReader/source.js",
+		"/home/subhan/FCCProjects/WikipediaReader/wikipediareader.html",
+		"/home/subhan/FCCProjects/LocalWeather/source.js",
+		"/home/subhan/NodePhotoServer/front/index.html",
+		"/home/subhan/Desktop/test.html",
+		"/home/subhan/.config/sublime-text-3/Packages/User/livereload.sublime-snippet",
+		"/home/subhan/Desktop/machine-learning-ex1/ex1/gradientDescent.m",
+		"/home/subhan/Desktop/machine-learning-ex1/ex1/computeCost.m",
+		"/home/subhan/FCCProjects/twitchtv/custom.css",
+		"/home/subhan/FCCProjects/WikipediaReader/custom.css",
+		"/home/subhan/FCCProjects/PersonalPortfolio/personalportfolio.html",
+		"/home/subhan/.config/sublime-text-3/Packages/User/JavaScript.sublime-build",
+		"/home/subhan/.config/sublime-text-2/Packages/User/JavaScript.sublime-build",
+		"/home/subhan/FCCProjects/README.md",
+		"/home/subhan/FCCProjects/FCCProjects.sublime-workspace",
+		"/home/subhan/FCCProjects/.gitignore",
+		"/home/subhan/FCCProjects/PersonalPortfolio/source.js",
+		"/home/subhan/FCCProjects/PersonalPortfolio/custom.css",
+		"/home/subhan/FCCProjects/RandomQuotes/source.js"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"status",
+			"mongoose",
+			"p",
+			"total",
+			"hello",
+			"result",
+			"title",
+			"callback",
+			"query",
+			"send",
+			"put",
+			"id",
+			"form",
+			"post",
+			"jade",
+			"home",
+			"get",
+			"express",
+			"get",
+			"getStrTime",
+			"minute",
+			"fs",
+			"POST",
+			"http",
+			"socket",
+			"net",
+			"i",
+			"resultsIndex",
+			"list",
+			"LICENSE",
+			"regex",
+			"README",
+			"Subhan",
+			"muted",
+			"blue",
+			"setMarkup",
+			"input",
+			"code",
+			"};\n",
+			"div",
+			"pre",
+			"red",
+			"selected",
+			"div",
+			"Parent",
+			"props",
+			"l>",
+			"<L",
+			"Label",
+			"Button",
+			"toLowerCase",
+			"failCallbacks",
+			"false",
+			"increasing",
+			"DOMElement",
+			"App",
+			"DOMElement",
+			"a",
+			"componentWillMount",
+			"componentWillUnmount",
+			"componentDidMount",
+			"componentWillMount",
+			"componentDidMount",
+			"compon",
+			"componentWillMount",
+			"refs",
+			"a",
+			"thi",
+			"div",
+			"ReactDOM",
+			"node",
+			"component",
+			"node",
+			"event.target.value",
+			"eve",
+			"currentEvent",
+			"onPaste",
+			"onTouchStart",
+			"currentText",
+			"currentEvent",
+			"React",
+			"\n        ",
+			"Button",
+			"App",
+			"React",
+			"props",
+			"txt",
+			"again",
+			"children",
+			"props",
+			"Hello",
+			"status",
+			"https",
+			"Pro",
+			"cons",
+			"play",
+			"runse",
+			"console",
+			"\n\t\t\t\t\t\t",
+			"cons",
+			"play",
+			"runseq",
+			"console",
+			"175817",
+			";\n",
+			"true",
+			"137C9E",
+			"strict",
+			"100",
+			"playBlue",
+			"playMusic",
+			"playBlue",
+			"playYellow",
+			"playRed",
+			"start",
+			"Sound",
+			"true",
+			"start",
+			"foo",
+			"1000",
+			"url",
+			"true",
+			"play",
+			"url",
+			"length",
+			"answers",
+			"sequence",
+			"answer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"parseFloat"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 148.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/JavaScript.sublime-build",
+	"project": "urlshortener.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"todoc",
+				"controllers/todoController.js"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"cus",
+				"public/custom.css"
+			],
+			[
+				"app",
+				"src/App.css"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"lo",
+				"LocalWeather/localweather.html"
+			],
+			[
+				"tic",
+				"Tictactoe/tictactoe.html"
+			],
+			[
+				"simon",
+				"Simon/source.js"
+			],
+			[
+				"sim",
+				"Simon/simon.html"
+			],
+			[
+				"tictac",
+				"Tictactoe/source.js"
+			],
+			[
+				"po",
+				"Pomodoro/pomodoro.html"
+			],
+			[
+				"sour",
+				"tictactoe/source.js"
+			],
+			[
+				"source",
+				"Pomodoro/source.js"
+			],
+			[
+				"pom",
+				"Pomodoro/pomodoro.html"
+			],
+			[
+				"calc",
+				"Calculator/custom.css"
+			],
+			[
+				"sou",
+				"tictactoe/source.js"
+			],
+			[
+				"cu",
+				"tictactoe/custom.css"
+			],
+			[
+				"ticta",
+				"tictactoe.html"
+			],
+			[
+				"loca",
+				"LocalWeather/localweather.html"
+			],
+			[
+				"local",
+				"LocalWeather/localweather.html"
+			],
+			[
+				"custom",
+				"LocalWeather/custom.css"
+			],
+			[
+				"cusot",
+				"Calculator/custom.css"
+			],
+			[
+				"pomo",
+				"Pomodoro/source.js"
+			],
+			[
+				"calcula",
+				"Calculator/source.js"
+			],
+			[
+				"so",
+				"Calculator/source.js"
+			],
+			[
+				"subl",
+				"FCCProjects.sublime-project"
+			],
+			[
+				"cal",
+				"Calculator/calculator.html"
+			],
+			[
+				"wiki",
+				"WikipediaReader/custom.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 75.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"diff"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
