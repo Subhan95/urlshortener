@@ -51,7 +51,13 @@ app.get('/:num', function(req, res){
 	Url.findOne({shortUrl: actualUri},function(err, doc){
 		if (err) console.log(err);
 
-		res.redirect(doc['bigUrl'])
+		if (doc===null) {
+			res.json('Invalid request')
+		}
+
+		else {
+			res.redirect(doc['bigUrl'])
+		}
 	})
 })
 
