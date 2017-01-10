@@ -6,8 +6,8 @@ var mongoose = require('mongoose');
 var urlNumberSchema = require('./schemas/urlNumberSchema')
 var urlSchema = require('./schemas/urlSchema')
 
-// var dbUri = process.env.MONGOLAB_URI;
-var dbUri = 'mongodb://localhost:27017/urlshortener'
+var dbUri = process.env.MONGOLAB_URI;
+// var dbUri = 'mongodb://localhost:27017/urlshortener'
 
 var app = express()
 
