@@ -14,10 +14,33 @@ mongoose.Promise = global.Promise
 
 mongoose.connect(dbUri);
 
+// var urlNumberSchema = new mongoose.Schema({
+// 	urlNumber: {
+// 		type: Number
+// 	}
+// })
+
+// var urlSchema = new mongoose.Schema({
+// 	originalUrl: {
+// 		type: String,
+// 		required: true
+// 	},
+// 	shortUrl: {
+// 		type: String,
+// 		required: true
+// 	}
+// })
+
 var UrlNumber = mongoose.model('UrlNumber',urlNumberSchema)
 var Url = mongoose.model('Url',urlSchema)
 
-app.use('/',express.static(path.join(__dirname, 'public')))
+// var number = new UrlNumber({urlNumber:0}).save(function(err){
+// 	if (err)
+// 		console.log(err);
+// 	console.log('urlNumber 0 saved');
+// })
+
+// app.use('/',express.static(path.join(__dirname,'public')));
 
 app.get('/:num', function(req, res){
 	var num = req.params.num;
@@ -44,37 +67,45 @@ app.get('/api/:uri*',function(req,res){
 
     if (status !== undefined) {
     	Url.findOne({originalUrl: userUri},function(err,doc){
-    		if (err) console.log(err);
+    		if (err) {
+    			console.log('error '+err);
+    		}
 
     		if (doc === null) {
 
     			UrlNumber.findOne({urlNumber: {$exists: true}}, function(err,doc){
-    				if (err) console.log((err));
-
+    				if (err)
+    					console.log((err));
     				var num = doc['urlNumber'];
     				console.log(num);
     				var newNum = num+1;
     				UrlNumber.update({urlNumber: num}, {urlNumber: newNum}, function(err,doc){
-
-    					if (err) console.log(err);
-
+    					if (err) 
+    						console.log(err);
     					console.log('urlNumber updated successfully');
 		    			var item = new Url({originalUrl: userUri, shortUrl: actualUri+'/'+num}).save(function(err,doc){
-
-		    				if(err) console.log(err);
+		    				if(err) 
+		    					console.log(err);
 		    				res.json({originalUrl: userUri, shortUrl: actualUri+'/'+num})
 		    			})
+
+
     				})
     			})
     		}
     		else
     			res.send({originalUrl: doc['originalUrl'], shortUrl: doc['shortUrl']})
+
+    		
     	})
     }
 
     else 
     	res.json('Invalid API request');
 })
+
+
+
 
 app.listen(process.env.PORT || 3000);
 console.log('Server running on port 3000');
