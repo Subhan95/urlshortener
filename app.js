@@ -7,6 +7,7 @@ var urlNumberSchema = require('./schemas/urlNumberSchema')
 var urlSchema = require('./schemas/urlSchema')
 
 var dbUri = process.env.MONGOLAB_URI;
+// var dbUri = 'mongodb://localhost:27017/urlshortener'
 
 var app = express()
 
@@ -40,7 +41,7 @@ var Url = mongoose.model('Url',urlSchema)
 // 	console.log('urlNumber 0 saved');
 // })
 
-// app.use('/',express.static(path.join(__dirname,'public')));
+app.use('/',express.static(path.join(__dirname,'public')));
 
 app.get('/:num', function(req, res){
 	var num = req.params.num;
