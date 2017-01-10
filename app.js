@@ -15,31 +15,11 @@ mongoose.Promise = global.Promise
 
 mongoose.connect(dbUri);
 
-// var urlNumberSchema = new mongoose.Schema({
-// 	urlNumber: {
-// 		type: Number
-// 	}
-// })
-
-// var urlSchema = new mongoose.Schema({
-// 	bigUrl: {
-// 		type: String,
-// 		required: true
-// 	},
-// 	shortUrl: {
-// 		type: String,
-// 		required: true
-// 	}
-// })
-
 var UrlNumber = mongoose.model('UrlNumber',urlNumberSchema)
 var Url = mongoose.model('Url',urlSchema)
 
-// var number = new UrlNumber({urlNumber:0}).save(function(err){
-// 	if (err)
-// 		console.log(err);
-// 	console.log('urlNumber 0 saved');
-// })
+// Insert a new collection urlnumbers in MongoDB
+// Add a new document with key urlNumber with value 0
 
 app.use('/',express.static(path.join(__dirname,'public')));
 
@@ -51,13 +31,11 @@ app.get('/:num', function(req, res){
 	Url.findOne({shortUrl: actualUri},function(err, doc){
 		if (err) console.log(err);
 
-		if (doc===null) {
+		if (doc===null) 
 			res.json('Invalid request')
-		}
 
-		else {
+		else 
 			res.redirect(doc['bigUrl'])
-		}
 	})
 })
 
@@ -74,9 +52,8 @@ app.get('/api/:uri*',function(req,res){
 
     if (status !== undefined) {
     	Url.findOne({bigUrl: userUri},function(err,doc){
-    		if (err) {
+    		if (err) 
     			console.log('error '+err);
-    		}
 
     		if (doc === null) {
 
