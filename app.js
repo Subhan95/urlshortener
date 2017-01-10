@@ -1,58 +1,80 @@
 var express = require('express');
 var validUrl = require('valid-url');
 var path = require('path');
-var mongodb = require('mongodb')
+var mongodb = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
-// var urlNumberSchema = require('./schemas/urlNumberSchema')
-// var urlSchema = require('./schemas/urlSchema')
+var urlNumberSchema = require('./schemas/urlNumberSchema')
+var urlSchema = require('./schemas/urlSchema')
+
+var dbUri = process.env.MLAB_URI
 
 var app = express()
 
-mongoose.connect('mongodb://localhost:27017/urlshortener');
+mongoose.Promise = global.Promise
 
-var urlNumberSchema = new mongoose.Schema({
-	urlNumber: {
-		type: Number
-	}
+mongoose.connect(dbUri);
+
+var UrlNumber = mongoose.model('UrlNumber',urlNumberSchema)
+var Url = mongoose.model('Url',urlSchema)
+
+app.use(express.static(path.join(__dirname, 'public')))
+
+app.get('/:num', function(req, res){
+	var num = req.params.num;
+	var actualUri = req.protocol+'://'+req.get('host')+'/'+num;
+	// console.log(num);
+	// console.log(actualUri);
+	Url.findOne({shortUrl: actualUri},function(err, doc){
+		if (err) console.log(err);
+
+		res.redirect(doc['originalUrl'])
+	})
 })
-
-var urlSchema = new mongoose.Schema({
-	originalUrl: {
-		type: String,
-		required: true
-	},
-	shortUrl: {
-		type: String,
-		required: true
-	}
-})
-
-var UrlNumber = new mongoose.model('UrlNumber',urlNumberSchema)
-
-var Url = new mongoose.model('Url',urlSchema)
-
-// app.use('/',express.static(path.join(__dirname,'public')));
 
 app.get('/api/:uri*',function(req,res){
 
     var uri = req.originalUrl;
-    var actualUri = uri.split('api/')[1];
-    console.log(actualUri);
-    var status = validUrl.isUri(actualUri)
-    console.log('status '+status);
-    console.log(req.protocol);
-    console.log(req.get('host'));
+    var userUri = uri.split('api/')[1];
+    var status = validUrl.isUri(userUri)
+    var actualUri = req.protocol+'://'+req.get('host');
 
-    res.send('stats')
+    // console.log('userUri '+userUri);
+    // console.log('actualUri '+actualUri);
+    // console.log('status '+status);
 
-    // if (status !== undefined) {
+    if (status !== undefined) {
+    	Url.findOne({originalUrl: userUri},function(err,doc){
+    		if (err) console.log(err);
 
-    // }
+    		if (doc === null) {
 
-    // else 
-    // 	res.send('Invalid API request');
+    			UrlNumber.findOne({urlNumber: {$exists: true}}, function(err,doc){
+    				if (err) console.log((err));
+
+    				var num = doc['urlNumber'];
+    				console.log(num);
+    				var newNum = num+1;
+    				UrlNumber.update({urlNumber: num}, {urlNumber: newNum}, function(err,doc){
+
+    					if (err) console.log(err);
+
+    					console.log('urlNumber updated successfully');
+		    			var item = new Url({originalUrl: userUri, shortUrl: actualUri+'/'+num}).save(function(err,doc){
+
+		    				if(err) console.log(err);
+		    				res.json({originalUrl: userUri, shortUrl: actualUri+'/'+num})
+		    			})
+    				})
+    			})
+    		}
+    		else
+    			res.send({originalUrl: doc['originalUrl'], shortUrl: doc['shortUrl']})
+    	})
+    }
+
+    else 
+    	res.json('Invalid API request');
 })
-
 
 app.listen(3000);
 console.log('Server running on port 3000');
