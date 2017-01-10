@@ -17,7 +17,7 @@ mongoose.connect(dbUri);
 var UrlNumber = mongoose.model('UrlNumber',urlNumberSchema)
 var Url = mongoose.model('Url',urlSchema)
 
-app.use('/',express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/:num', function(req, res){
 	var num = req.params.num;
@@ -76,5 +76,5 @@ app.get('/api/:uri*',function(req,res){
     	res.json('Invalid API request');
 })
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 console.log('Server running on port 3000');
