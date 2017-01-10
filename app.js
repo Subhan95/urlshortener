@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var urlNumberSchema = require('./schemas/urlNumberSchema')
 var urlSchema = require('./schemas/urlSchema')
 
-var dbUri = process.env.MLAB_URI
+var dbUri = process.env.MONGOLAB_URI
 
 var app = express()
 
