@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var urlSchema = {
-	originalUrl: {
+	bigUrl: {
 		type: String,
 		required: true
 	},

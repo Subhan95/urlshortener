@@ -6,8 +6,8 @@ var mongoose = require('mongoose');
 var urlNumberSchema = require('./schemas/urlNumberSchema')
 var urlSchema = require('./schemas/urlSchema')
 
-var dbUri = process.env.MONGOLAB_URI;
-// var dbUri = 'mongodb://localhost:27017/urlshortener'
+// var dbUri = process.env.MONGOLAB_URI;
+var dbUri = 'mongodb://localhost:27017/urlshortener'
 
 var app = express()
 
@@ -22,7 +22,7 @@ mongoose.connect(dbUri);
 // })
 
 // var urlSchema = new mongoose.Schema({
-// 	originalUrl: {
+// 	bigUrl: {
 // 		type: String,
 // 		required: true
 // 	},
@@ -51,7 +51,7 @@ app.get('/:num', function(req, res){
 	Url.findOne({shortUrl: actualUri},function(err, doc){
 		if (err) console.log(err);
 
-		res.redirect(doc['originalUrl'])
+		res.redirect(doc['bigUrl'])
 	})
 })
 
@@ -67,7 +67,7 @@ app.get('/api/:uri*',function(req,res){
     // console.log('status '+status);
 
     if (status !== undefined) {
-    	Url.findOne({originalUrl: userUri},function(err,doc){
+    	Url.findOne({bigUrl: userUri},function(err,doc){
     		if (err) {
     			console.log('error '+err);
     		}
@@ -84,10 +84,10 @@ app.get('/api/:uri*',function(req,res){
     					if (err) 
     						console.log(err);
     					console.log('urlNumber updated successfully');
-		    			var item = new Url({originalUrl: userUri, shortUrl: actualUri+'/'+num}).save(function(err,doc){
+		    			var item = new Url({bigUrl: userUri, shortUrl: actualUri+'/'+num}).save(function(err,doc){
 		    				if(err) 
 		    					console.log(err);
-		    				res.json({originalUrl: userUri, shortUrl: actualUri+'/'+num})
+		    				res.json({bigUrl: userUri, shortUrl: actualUri+'/'+num})
 		    			})
 
 
@@ -95,7 +95,7 @@ app.get('/api/:uri*',function(req,res){
     			})
     		}
     		else
-    			res.send({originalUrl: doc['originalUrl'], shortUrl: doc['shortUrl']})
+    			res.send({bigUrl: doc['bigUrl'], shortUrl: doc['shortUrl']})
 
     		
     	})
