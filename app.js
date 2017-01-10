@@ -17,7 +17,7 @@ mongoose.connect(dbUri);
 var UrlNumber = mongoose.model('UrlNumber',urlNumberSchema)
 var Url = mongoose.model('Url',urlSchema)
 
-app.use(express.static(path.join(__dirname, 'public')))
+app.use('/',express.static(path.join(__dirname, 'public')))
 
 app.get('/:num', function(req, res){
 	var num = req.params.num;
