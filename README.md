@@ -1,4 +1,4 @@
-#Timestamp Microservice
+#Urlshortener
 
 An API that takes a given url and returns a shortened version of the same URL. The shortened URL can be used for accessing the same page. 
 
