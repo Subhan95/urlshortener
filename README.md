@@ -10,7 +10,7 @@ An API that takes a given url and returns a shortened version of the same URL. T
 2. [npm](https://www.npmjs.com)
 3. [mongodb](https://www.mongodb.com/)
 
-###Installing
+###Installation
 Clone the project
 
 ```git
