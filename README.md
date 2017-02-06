@@ -25,10 +25,15 @@ npm install
 
 to install the dependencies
 
-###For development
+###Development
 Rename .env.template to .env
 
 The project uses MongoDB to store data so make sure you have it installed. Use the MONGO_URI to make sure that the service has access to a DB
+
+##Deployment
+
+**MONGOLAB_URI**
+Use a third party service like [mLab](https://mlab.com/) to make a MongoDB database and note down the access point.
 
 ##Usage
 
